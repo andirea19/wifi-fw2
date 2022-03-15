@@ -12,3 +12,11 @@ $f3->set('resourcesPath', '/resources/');
 $f3->set('cssPath', $f3->get('resourcesPath') . 'css/');
 $f3->set('jsPath', $f3->get('resourcesPath') . 'js/');
 $f3->set('imagePath', $f3->get('resourcesPath') . 'img/');
+
+
+/************* Database credentials ***********************/
+$f3->set('dbHost', 'localhost');
+$f3->set('dbUser', 'root');
+$f3->set('dbPassword', '');
+$f3->set('dbDatabase', 'bestlearning');
+

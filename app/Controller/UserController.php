@@ -15,4 +15,9 @@ class UserController {
 		$f3->set('docTitle', 'User');
 		echo \Template::instance()->render($f3->get('viewsPath') . 'index.html');
 	}
+
+	public function user($f3, $params)
+	{
+		echo 'User Id: ' . $params['id'];
+	}
 }

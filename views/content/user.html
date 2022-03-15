@@ -1,4 +1,26 @@
 <h1>User</h1>
 
 <h2>All users</h2>
-{{ print_r(@users) }}
+
+<table class="table">
+	<tr>
+		<th>Title/Salutation</th>
+		<th>Name</th>
+		<th>E-Mail</th>
+		<th>edit</th>
+		<th>delete</th>
+	</tr>
+	<repeat group="{{ @users}}" value="{{ @row }}">
+	<tr>
+		<td>{{ @row.title }} {{ @row.salutation }}</td>
+		<td>{{ @row.firstName }} {{ @row.lastName }}</td>
+		<td>{{ @row.email }}</td>
+		<td>
+			<a href="/user/{{ @row.id }}" " class="btn btn-success">Edit</a>
+		</td>
+		<td>
+			<a href="/user/delete/{{ @row.id }}" " class="btn btn-warning">delete</a>
+		</td>
+	</tr>
+	</repeat>
+</table>

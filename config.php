@@ -15,8 +15,8 @@ $f3->set('imagePath', $f3->get('resourcesPath') . 'img/');
 
 
 /************* Database credentials ***********************/
-$f3->set('dbHost', 'localhost');
-$f3->set('dbUser', 'root');
-$f3->set('dbPassword', '');
-$f3->set('dbDatabase', 'bestlearning');
+$f3->set('dbHost', 		'localhost');
+$f3->set('dbUser', 		'root');
+$f3->set('dbPassword', 	'');
+$f3->set('dbDatabase', 	'bestlearning');
 

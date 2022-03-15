@@ -28,7 +28,8 @@ class UserModel extends Model {
 				'title' => $title,
 				'firstName' => $firstName,
 				'lastName' => $lastName,
-				'email' => $email
+				'email' => $email,
+				'fullName' => "$salutation $title $firstName $lastName"
 			];
 		}
 		return $users;

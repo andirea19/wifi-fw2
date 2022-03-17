@@ -17,3 +17,8 @@ Um selbst am Projekt arbeiten zu können, sollte ein eigener Branch angelegt wer
 ### Aktualisieren von master in den eigenen branch übernehmen
 
 Wird das Projekt mit ```git pull origin master``` aktualisiert, können diese Änderungen in den eigenen branch übernommen werden: versichern, dass wir im eigenen branch sind mit ```git status```. Dann ```git merge master```.
+
+## Libraries
+
+- https://fatfreeframework.com/3.7/home
+- https://github.com/rakit/validation
